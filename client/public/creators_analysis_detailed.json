@@ -10,16 +10,16 @@
   "creators": [
     {
       "rank": 8,
-      "name": "Aida - Self Love",
+      "name": "Aida - Tự yêu",
       "handle": "selflove_aida",
       "followers": 145000,
       "engagement_rate": 10.97,
       "audience_quality": 80,
-      "sustainability_focus": "High",
+      "sustainability_focus": "Cao",
       "fit_score_calculated": 7.7,
-      "outreach_angle": "Your focus on sustainable living resonates with our eco-conscious mission | Your highly engaged community demonstrates genuine influence and trust",
-      "content_style": "Motivational, wellness tips, product reviews",
-      "audience_demographics": "Women 20-40, wellness-focused"
+      "outreach_angle": "Sự tập trung của bạn vào cuộc sống bền vững phù hợp với sứ mệnh có ý thức về môi trường của chúng tôi | Cộng đồng tương tác cao của bạn chứng tỏ ảnh hưởng chân thực và sự tin tưởng",
+      "content_style": "Động lực, mẹo sức khỏe, đánh giá sản phẩm",
+      "audience_demographics": "Phụ nữ 20-40, tập trung vào sức khỏe"
     },
     {
       "rank": 6,
@@ -28,11 +28,11 @@
       "followers": 180000,
       "engagement_rate": 16.62,
       "audience_quality": 61,
-      "sustainability_focus": "Medium-High",
+      "sustainability_focus": "Trung bình-Cao",
       "fit_score_calculated": 7.6,
-      "outreach_angle": "Your highly engaged community demonstrates genuine influence and trust",
-      "content_style": "Creative, tutorials, product showcases",
-      "audience_demographics": "Women 20-35, engaged beauty community"
+      "outreach_angle": "Cộng đồng tương tác cao của bạn chứng tỏ ảnh hưởng chân thực và sự tin tưởng",
+      "content_style": "Sáng tạo, hướng dẫn, trưng bày sản phẩm",
+      "audience_demographics": "Phụ nữ 20-35, cộng đồng làm đẹp tương tác"
     },
     {
       "rank": 14,
@@ -41,11 +41,11 @@
       "followers": 47900,
       "engagement_rate": 4.1,
       "audience_quality": 75,
-      "sustainability_focus": "Very High",
+      "sustainability_focus": "Rất cao",
       "fit_score_calculated": 7.4,
-      "outreach_angle": "Your authentic commitment to sustainability perfectly aligns with our brand values | Your strong engagement rates show meaningful connections with your audience",
-      "content_style": "Interviews, expert insights, brand stories",
-      "audience_demographics": "Women 30-55, entrepreneurs, conscious consumers"
+      "outreach_angle": "Cam kết chân thực của bạn đối với tính bền vững hoàn toàn phù hợp với giá trị thương hiệu của chúng tôi | Tỷ lệ tương tác cao của bạn cho thấy những kết nối có ý nghĩa với khán giả của bạn",
+      "content_style": "Phỏng vấn, thông tin chuyên gia, câu chuyện thương hiệu",
+      "audience_demographics": "Phụ nữ 30-55, doanh nhân, người tiêu dùng có ý thức"
     },
     {
       "rank": 7,
@@ -54,11 +54,11 @@
       "followers": 155000,
       "engagement_rate": 109.83,
       "audience_quality": 65,
-      "sustainability_focus": "Medium",
+      "sustainability_focus": "Trung bình",
       "fit_score_calculated": 7.4,
-      "outreach_angle": "Your highly engaged community demonstrates genuine influence and trust",
-      "content_style": "Interactive, tutorials, reviews",
-      "audience_demographics": "Women 18-35, highly engaged"
+      "outreach_angle": "Cộng đồng tương tác cao của bạn chứng tỏ ảnh hưởng chân thực và sự tin tưởng",
+      "content_style": "Tương tác, hướng dẫn, đánh giá",
+      "audience_demographics": "Phụ nữ 18-35, tương tác cao"
     },
     {
       "rank": 16,
@@ -67,11 +67,11 @@
       "followers": 42500,
       "engagement_rate": 3.9,
       "audience_quality": 73,
-      "sustainability_focus": "Very High",
+      "sustainability_focus": "Rất cao",
       "fit_score_calculated": 7.3,
-      "outreach_angle": "Your authentic commitment to sustainability perfectly aligns with our brand values | Your strong engagement rates show meaningful connections with your audience",
-      "content_style": "Educational, product reviews, activism",
-      "audience_demographics": "Women 20-45, vegan/ethical consumers"
+      "outreach_angle": "Cam kết chân thực của bạn đối với tính bền vững hoàn toàn phù hợp với giá trị thương hiệu của chúng tôi | Tỷ lệ tương tác cao của bạn cho thấy những kết nối có ý nghĩa với khán giả của bạn",
+      "content_style": "Giáo dục, đánh giá sản phẩm, hoạt động",
+      "audience_demographics": "Phụ nữ 20-45, người tiêu dùng vegan/đạo đức"
     },
     {
       "rank": 12,
@@ -80,11 +80,11 @@
       "followers": 58800,
       "engagement_rate": 3.5,
       "audience_quality": 74,
-      "sustainability_focus": "Very High",
+      "sustainability_focus": "Rất cao",
       "fit_score_calculated": 7.3,
-      "outreach_angle": "Your authentic commitment to sustainability perfectly aligns with our brand values | Your strong engagement rates show meaningful connections with your audience",
-      "content_style": "Educational, lifestyle, product recommendations",
-      "audience_demographics": "Women 30-55, eco-conscious, mothers"
+      "outreach_angle": "Cam kết chân thực của bạn đối với tính bền vững hoàn toàn phù hợp với giá trị thương hiệu của chúng tôi | Tỷ lệ tương tác cao của bạn cho thấy những kết nối có ý nghĩa với khán giả của bạn",
+      "content_style": "Giáo dục, lối sống, khuyến nghị sản phẩm",
+      "audience_demographics": "Phụ nữ 30-55, có ý thức về môi trường, mẹ"
     },
     {
       "rank": 15,
@@ -93,11 +93,11 @@
       "followers": 66600,
       "engagement_rate": 3.2,
       "audience_quality": 71,
-      "sustainability_focus": "Very High",
+      "sustainability_focus": "Rất cao",
       "fit_score_calculated": 7.2,
-      "outreach_angle": "Your authentic commitment to sustainability perfectly aligns with our brand values | Your strong engagement rates show meaningful connections with your audience",
-      "content_style": "Brand advocacy, product launches, lifestyle",
-      "audience_demographics": "Women 25-50, Brazilian audience, eco-conscious"
+      "outreach_angle": "Cam kết chân thực của bạn đối với tính bền vững hoàn toàn phù hợp với giá trị thương hiệu của chúng tôi | Tỷ lệ tương tác cao của bạn cho thấy những kết nối có ý nghĩa với khán giả của bạn",
+      "content_style": "Ủng hộ thương hiệu, ra mắt sản phẩm, lối sống",
+      "audience_demographics": "Phụ nữ 25-50, khán giả Brazil, có ý thức về môi trường"
     },
     {
       "rank": 2,
@@ -106,24 +106,24 @@
       "followers": 529000,
       "engagement_rate": 1.83,
       "audience_quality": 78,
-      "sustainability_focus": "Very High",
+      "sustainability_focus": "Rất cao",
       "fit_score_calculated": 7.2,
-      "outreach_angle": "Your authentic commitment to sustainability perfectly aligns with our brand values | Your audience quality is exceptional - exactly the conscious consumers we want to reach",
-      "content_style": "Reviews, brand stories, sustainability tips",
-      "audience_demographics": "Women 20-40, sustainability-focused"
+      "outreach_angle": "Cam kết chân thực của bạn đối với tính bền vững hoàn toàn phù hợp với giá trị thương hiệu của chúng tôi | Chất lượng khán giả của bạn là ngoạn mục - chính xác những người tiêu dùng có ý thức mà chúng tôi muốn tiếp cận",
+      "content_style": "Đánh giá, câu chuyện thương hiệu, mẹo bền vững",
+      "audience_demographics": "Phụ nữ 20-40, tập trung vào tính bền vững"
     },
     {
       "rank": 20,
-      "name": "Jo\u00eblle Paquette",
+      "name": "Joëlle Paquette",
       "handle": "veryjoelle",
       "followers": 14200,
       "engagement_rate": 5.1,
       "audience_quality": 69,
-      "sustainability_focus": "Very High",
+      "sustainability_focus": "Rất cao",
       "fit_score_calculated": 7.1,
-      "outreach_angle": "Your authentic commitment to sustainability perfectly aligns with our brand values | Your highly engaged community demonstrates genuine influence and trust",
-      "content_style": "DIY, upcycling, sustainable living",
-      "audience_demographics": "Women 25-45, French/Canadian, eco-conscious"
+      "outreach_angle": "Cam kết chân thực của bạn đối với tính bền vững hoàn toàn phù hợp với giá trị thương hiệu của chúng tôi | Cộng đồng tương tác cao của bạn chứng tỏ ảnh hưởng chân thực và sự tin tưởng",
+      "content_style": "DIY, tái chế, cuộc sống bền vững",
+      "audience_demographics": "Phụ nữ 25-45, Pháp/Canada, có ý thức về môi trường"
     },
     {
       "rank": 18,
@@ -132,11 +132,11 @@
       "followers": 21900,
       "engagement_rate": 4.5,
       "audience_quality": 72,
-      "sustainability_focus": "Very High",
+      "sustainability_focus": "Rất cao",
       "fit_score_calculated": 7.1,
-      "outreach_angle": "Your authentic commitment to sustainability perfectly aligns with our brand values | Your strong engagement rates show meaningful connections with your audience",
-      "content_style": "Lifestyle, product recommendations, parenting",
-      "audience_demographics": "Women 25-50, mothers, health-conscious"
+      "outreach_angle": "Cam kết chân thực của bạn đối với tính bền vững hoàn toàn phù hợp với giá trị thương hiệu của chúng tôi | Tỷ lệ tương tác cao của bạn cho thấy những kết nối có ý nghĩa với khán giả của bạn",
+      "content_style": "Lối sống, khuyến nghị sản phẩm, nuôi dạy con",
+      "audience_demographics": "Phụ nữ 25-50, mẹ, có ý thức về sức khỏe"
     },
     {
       "rank": 11,
@@ -145,11 +145,11 @@
       "followers": 84700,
       "engagement_rate": 4.2,
       "audience_quality": 76,
-      "sustainability_focus": "High",
+      "sustainability_focus": "Cao",
       "fit_score_calculated": 6.7,
-      "outreach_angle": "Your focus on sustainable living resonates with our eco-conscious mission | Your strong engagement rates show meaningful connections with your audience",
-      "content_style": "Professional reviews, tutorials, expert advice",
-      "audience_demographics": "Women 25-50, Irish/UK audience"
+      "outreach_angle": "Sự tập trung của bạn vào cuộc sống bền vững phù hợp với sứ mệnh có ý thức về môi trường của chúng tôi | Tỷ lệ tương tác cao của bạn cho thấy những kết nối có ý nghĩa với khán giả của bạn",
+      "content_style": "Đánh giá chuyên nghiệp, hướng dẫn, lời khuyên chuyên gia",
+      "audience_demographics": "Phụ nữ 25-50, khán giả Ireland/UK"
     },
     {
       "rank": 17,
@@ -158,11 +158,11 @@
       "followers": 24900,
       "engagement_rate": 5.2,
       "audience_quality": 70,
-      "sustainability_focus": "High",
+      "sustainability_focus": "Cao",
       "fit_score_calculated": 6.4,
-      "outreach_angle": "Your focus on sustainable living resonates with our eco-conscious mission | Your highly engaged community demonstrates genuine influence and trust",
-      "content_style": "Lifestyle, fashion, beauty integration",
-      "audience_demographics": "Women 20-35, UK/London, fashion-forward"
+      "outreach_angle": "Sự tập trung của bạn vào cuộc sống bền vững phù hợp với sứ mệnh có ý thức về môi trường của chúng tôi | Cộng đồng tương tác cao của bạn chứng tỏ ảnh hưởng chân thực và sự tin tưởng",
+      "content_style": "Lối sống, thời trang, tích hợp làm đẹp",
+      "audience_demographics": "Phụ nữ 20-35, UK/London, hướng tới thời trang"
     },
     {
       "rank": 13,
@@ -171,11 +171,11 @@
       "followers": 47600,
       "engagement_rate": 3.8,
       "audience_quality": 72,
-      "sustainability_focus": "High",
+      "sustainability_focus": "Cao",
       "fit_score_calculated": 6.3,
-      "outreach_angle": "Your focus on sustainable living resonates with our eco-conscious mission | Your strong engagement rates show meaningful connections with your audience",
-      "content_style": "Reviews, hauls, lifestyle content",
-      "audience_demographics": "Women 25-45, budget-conscious, eco-aware"
+      "outreach_angle": "Sự tập trung của bạn vào cuộc sống bền vững phù hợp với sứ mệnh có ý thức về môi trường của chúng tôi | Tỷ lệ tương tác cao của bạn cho thấy những kết nối có ý nghĩa với khán giả của bạn",
+      "content_style": "Đánh giá, mua sắm, nội dung lối sống",
+      "audience_demographics": "Phụ nữ 25-45, tiết kiệm, có ý thức về môi trường"
     },
     {
       "rank": 19,
@@ -184,11 +184,11 @@
       "followers": 16800,
       "engagement_rate": 4.8,
       "audience_quality": 71,
-      "sustainability_focus": "Medium-High",
+      "sustainability_focus": "Trung bình-Cao",
       "fit_score_calculated": 6.0,
-      "outreach_angle": "Your strong engagement rates show meaningful connections with your audience | Your audience demographics align perfectly with our target market",
-      "content_style": "Tutorials, reviews, makeup tips",
-      "audience_demographics": "Women 20-40, makeup enthusiasts"
+      "outreach_angle": "Tỷ lệ tương tác cao của bạn cho thấy những kết nối có ý nghĩa với khán giả của bạn | Nhân khẩu học khán giả của bạn hoàn toàn phù hợp với thị trường mục tiêu của chúng tôi",
+      "content_style": "Hướng dẫn, đánh giá, mẹo trang điểm",
+      "audience_demographics": "Phụ nữ 20-40, những người yêu thích trang điểm"
     },
     {
       "rank": 1,
@@ -197,24 +197,24 @@
       "followers": 620000,
       "engagement_rate": 1.0,
       "audience_quality": 77,
-      "sustainability_focus": "High",
+      "sustainability_focus": "Cao",
       "fit_score_calculated": 6.0,
-      "outreach_angle": "Your focus on sustainable living resonates with our eco-conscious mission | Your audience quality is exceptional - exactly the conscious consumers we want to reach",
-      "content_style": "Educational, product reviews, lifestyle",
-      "audience_demographics": "Women 25-45, eco-conscious"
+      "outreach_angle": "Sự tập trung của bạn vào cuộc sống bền vững phù hợp với sứ mệnh có ý thức về môi trường của chúng tôi | Chất lượng khán giả của bạn là ngoạn mục - chính xác những người tiêu dùng có ý thức mà chúng tôi muốn tiếp cận",
+      "content_style": "Giáo dục, đánh giá sản phẩm, lối sống",
+      "audience_demographics": "Phụ nữ 25-45, có ý thức về môi trường"
     },
     {
       "rank": 3,
-      "name": "Karly - Clean Living",
+      "name": "Karly - Sống sạch",
       "handle": "cleanlivingkarly",
       "followers": 342000,
       "engagement_rate": 1.0,
       "audience_quality": 75,
-      "sustainability_focus": "High",
+      "sustainability_focus": "Cao",
       "fit_score_calculated": 6.0,
-      "outreach_angle": "Your focus on sustainable living resonates with our eco-conscious mission | Your audience demographics align perfectly with our target market",
-      "content_style": "Lifestyle, product recommendations, tips",
-      "audience_demographics": "Women 25-50, health-conscious"
+      "outreach_angle": "Sự tập trung của bạn vào cuộc sống bền vững phù hợp với sứ mệnh có ý thức về môi trường của chúng tôi | Nhân khẩu học khán giả của bạn hoàn toàn phù hợp với thị trường mục tiêu của chúng tôi",
+      "content_style": "Lối sống, khuyến nghị sản phẩm, mẹo",
+      "audience_demographics": "Phụ nữ 25-50, có ý thức về sức khỏe"
     },
     {
       "rank": 5,
@@ -223,11 +223,11 @@
       "followers": 234000,
       "engagement_rate": 1.1,
       "audience_quality": 69,
-      "sustainability_focus": "High",
+      "sustainability_focus": "Cao",
       "fit_score_calculated": 5.9,
-      "outreach_angle": "Your focus on sustainable living resonates with our eco-conscious mission",
-      "content_style": "Educational, product reviews, skincare tips",
-      "audience_demographics": "Women 25-45, eco-conscious"
+      "outreach_angle": "Sự tập trung của bạn vào cuộc sống bền vững phù hợp với sứ mệnh có ý thức về môi trường của chúng tôi",
+      "content_style": "Giáo dục, đánh giá sản phẩm, mẹo chăm sóc da",
+      "audience_demographics": "Phụ nữ 25-45, có ý thức về môi trường"
     },
     {
       "rank": 10,
@@ -236,11 +236,11 @@
       "followers": 32300,
       "engagement_rate": 1.84,
       "audience_quality": 73,
-      "sustainability_focus": "Medium-High",
+      "sustainability_focus": "Trung bình-Cao",
       "fit_score_calculated": 5.7,
-      "outreach_angle": "Your audience demographics align perfectly with our target market",
-      "content_style": "Reviews, tutorials, recommendations",
-      "audience_demographics": "Women 20-35, indie beauty fans"
+      "outreach_angle": "Nhân khẩu học khán giả của bạn hoàn toàn phù hợp với thị trường mục tiêu của chúng tôi",
+      "content_style": "Đánh giá, hướng dẫn, khuyến nghị",
+      "audience_demographics": "Phụ nữ 20-35, những người yêu thích làm đẹp độc lập"
     },
     {
       "rank": 9,
@@ -249,11 +249,11 @@
       "followers": 104000,
       "engagement_rate": 1.0,
       "audience_quality": 55,
-      "sustainability_focus": "Medium-High",
+      "sustainability_focus": "Trung bình-Cao",
       "fit_score_calculated": 5.1,
       "outreach_angle": "",
-      "content_style": "Educational, reviews, skincare science",
-      "audience_demographics": "Women 20-40, skincare enthusiasts"
+      "content_style": "Giáo dục, đánh giá, khoa học chăm sóc da",
+      "audience_demographics": "Phụ nữ 20-40, những người yêu thích chăm sóc da"
     },
     {
       "rank": 4,
@@ -262,11 +262,11 @@
       "followers": 320000,
       "engagement_rate": 1.98,
       "audience_quality": 64,
-      "sustainability_focus": "Medium",
+      "sustainability_focus": "Trung bình",
       "fit_score_calculated": 4.8,
       "outreach_angle": "",
-      "content_style": "Tutorials, reviews, hauls",
-      "audience_demographics": "Women 18-40, beauty enthusiasts"
+      "content_style": "Hướng dẫn, đánh giá, mua sắm",
+      "audience_demographics": "Phụ nữ 18-40, những người yêu thích làm đẹp"
     }
   ]
 }

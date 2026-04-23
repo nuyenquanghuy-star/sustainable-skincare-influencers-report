@@ -5,11 +5,11 @@ import { ArrowLeft, Filter, TrendingUp } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 /**
- * Design Philosophy: Data-First Elegance
- * - Interactive data visualization with scatter plot
- * - Creator cards with fit scores
- * - Filter by sustainability focus and engagement
- * - Personalized outreach angles
+ * Triết lý Thiết kế: Sự Thanh lịch Dữ liệu-Trước tiên
+ * - Trực quan hóa dữ liệu tương tác với biểu đồ phân tán
+ * - Thẻ người sáng tạo với điểm số phù hợp
+ * - Lọc theo cam kết bền vững và tương tác
+ * - Góc độ tiếp cận được cá nhân hóa
  */
 
 interface Creator {
@@ -34,17 +34,17 @@ export default function Report() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Load data from JSON
+    // Tải dữ liệu từ JSON
     const loadData = async () => {
       try {
         const response = await fetch("/creators_analysis_detailed.json");
-        if (!response.ok) throw new Error("Failed to load data");
+        if (!response.ok) throw new Error("Không thể tải dữ liệu");
         const data = await response.json();
         setCreators(data.creators);
         setFilteredCreators(data.creators);
       } catch (error) {
-        console.error("Error loading creators data:", error);
-        // Fallback: use empty array
+        console.error("Lỗi tải dữ liệu người sáng tạo:", error);
+        // Fallback: sử dụng mảng trống
         setCreators([]);
         setFilteredCreators([]);
       } finally {
@@ -95,7 +95,7 @@ export default function Report() {
       <div className="min-h-screen bg-white flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-emerald-600 mx-auto mb-4" />
-          <p className="text-gray-600">Loading creator data...</p>
+          <p className="text-gray-600">Đang tải dữ liệu người sáng tạo...</p>
         </div>
       </div>
     );
@@ -103,23 +103,23 @@ export default function Report() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
+      {/* Tiêu đề */}
       <div className="border-b border-gray-100 sticky top-0 bg-white z-10">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <Link href="/">
             <Button variant="ghost" className="text-gray-600">
               <ArrowLeft className="w-4 h-4 mr-2" />
-              Back
+              Quay lại
             </Button>
           </Link>
           <h1 className="text-2xl font-bold text-gray-900" style={{ fontFamily: "Playfair Display" }}>
-            Creator Partnership Report
+            Báo cáo Hợp tác Người sáng tạo
           </h1>
           <div className="w-20" />
         </div>
       </div>
 
-      {/* Hero Section with Background */}
+      {/* Phần Hero với Nền */}
       <section
         className="py-12 relative"
         style={{
@@ -132,56 +132,56 @@ export default function Report() {
         <div className="absolute inset-0 bg-white/85" />
         <div className="container mx-auto px-4 relative z-10">
           <h2 className="text-3xl font-bold mb-4" style={{ fontFamily: "Playfair Display" }}>
-            Top 20 Sustainable Beauty Influencers
+            Top 20 Người sáng tạo Làm đẹp Bền vững
           </h2>
           <p className="text-gray-600 mb-6">
-            Detailed analysis of engagement rates, audience quality, sustainability commitment, and collaboration potential.
+            Phân tích chi tiết về tỷ lệ tương tác, chất lượng khán giả, cam kết bền vững, và tiềm năng hợp tác.
           </p>
 
-          {/* Filters */}
+          {/* Bộ lọc */}
           <div className="flex flex-wrap gap-4 mb-6">
             <div className="flex items-center gap-2">
               <Filter className="w-4 h-4 text-gray-600" />
-              <span className="text-sm font-semibold text-gray-700">Filters:</span>
+              <span className="text-sm font-semibold text-gray-700">Bộ lọc:</span>
             </div>
 
             <div>
-              <label className="text-sm text-gray-600 mr-2">Sustainability:</label>
+              <label className="text-sm text-gray-600 mr-2">Bền vững:</label>
               <select
                 value={sustainabilityFilter}
                 onChange={(e) => setSustainabilityFilter(e.target.value)}
                 className="px-3 py-1 border border-gray-300 rounded-md text-sm"
               >
-                <option value="all">All</option>
-                <option value="Very High">Very High</option>
-                <option value="High">High</option>
-                <option value="Medium-High">Medium-High</option>
-                <option value="Medium">Medium</option>
+                <option value="all">Tất cả</option>
+                <option value="Very High">Rất cao</option>
+                <option value="High">Cao</option>
+                <option value="Medium-High">Trung bình-Cao</option>
+                <option value="Medium">Trung bình</option>
               </select>
             </div>
 
             <div>
-              <label className="text-sm text-gray-600 mr-2">Engagement Rate:</label>
+              <label className="text-sm text-gray-600 mr-2">Tỷ lệ Tương tác:</label>
               <select
                 value={engagementFilter}
                 onChange={(e) => setEngagementFilter(e.target.value)}
                 className="px-3 py-1 border border-gray-300 rounded-md text-sm"
               >
-                <option value="all">All</option>
-                <option value="3">Greater than 3%</option>
-                <option value="5">Greater than 5%</option>
-                <option value="10">Greater than 10%</option>
+                <option value="all">Tất cả</option>
+                <option value="3">Lớn hơn 3%</option>
+                <option value="5">Lớn hơn 5%</option>
+                <option value="10">Lớn hơn 10%</option>
               </select>
             </div>
           </div>
 
           <p className="text-sm text-gray-600">
-            Showing {filteredCreators.length} of {creators.length} creators
+            Hiển thị {filteredCreators.length} trên {creators.length} người sáng tạo
           </p>
         </div>
       </section>
 
-      {/* Creators Grid */}
+      {/* Lưới Người sáng tạo */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-6">
@@ -198,47 +198,47 @@ export default function Report() {
                     </div>
                   </div>
 
-                  {/* Metrics */}
+                  {/* Chỉ số */}
                   <div className="grid grid-cols-3 gap-4 mb-4 py-4 border-y border-gray-100">
                     <div>
-                      <p className="text-xs text-gray-600 mb-1">Followers</p>
+                      <p className="text-xs text-gray-600 mb-1">Người theo dõi</p>
                       <p className="font-semibold text-gray-900">
                         {(creator.followers / 1000).toFixed(0)}K
                       </p>
                     </div>
                     <div>
-                      <p className="text-xs text-gray-600 mb-1">Engagement</p>
+                      <p className="text-xs text-gray-600 mb-1">Tương tác</p>
                       <p className="font-semibold text-gray-900">{creator.engagement_rate.toFixed(1)}%</p>
                     </div>
                     <div>
-                      <p className="text-xs text-gray-600 mb-1">Audience Quality</p>
+                      <p className="text-xs text-gray-600 mb-1">Chất lượng Khán giả</p>
                       <p className="font-semibold text-gray-900">{creator.audience_quality}%</p>
                     </div>
                   </div>
 
-                  {/* Sustainability Badge */}
+                  {/* Huy hiệu Bền vững */}
                   <div className="mb-4">
                     <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold border ${getSustainabilityColor(creator.sustainability_focus)}`}>
                       {creator.sustainability_focus}
                     </span>
                   </div>
 
-                  {/* Content Style */}
+                  {/* Phong cách Nội dung */}
                   <p className="text-sm text-gray-600 mb-3">
-                    <span className="font-semibold">Content:</span> {creator.content_style}
+                    <span className="font-semibold">Nội dung:</span> {creator.content_style}
                   </p>
 
-                  {/* Audience Demographics */}
+                  {/* Nhân khẩu học Khán giả */}
                   <p className="text-sm text-gray-600 mb-4">
-                    <span className="font-semibold">Audience:</span> {creator.audience_demographics}
+                    <span className="font-semibold">Khán giả:</span> {creator.audience_demographics}
                   </p>
 
-                  {/* Outreach Angle */}
+                  {/* Góc độ Tiếp cận */}
                   {creator.outreach_angle && (
                     <div className="bg-emerald-50 p-3 rounded-md border border-emerald-100">
                       <p className="text-xs text-emerald-900">
                         <TrendingUp className="w-3 h-3 inline mr-1" />
-                        <span className="font-semibold">Outreach Angle:</span> {creator.outreach_angle}
+                        <span className="font-semibold">Góc độ Tiếp cận:</span> {creator.outreach_angle}
                       </p>
                     </div>
                   )}
@@ -249,17 +249,17 @@ export default function Report() {
 
           {filteredCreators.length === 0 && (
             <div className="text-center py-12">
-              <p className="text-gray-600 text-lg">No creators match your filters. Try adjusting your selection.</p>
+              <p className="text-gray-600 text-lg">Không có người sáng tạo phù hợp với bộ lọc của bạn. Hãy thử điều chỉnh lựa chọn.</p>
             </div>
           )}
         </div>
       </section>
 
-      {/* Footer */}
+      {/* Chân trang */}
       <footer className="bg-gray-50 border-t border-gray-100 py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-gray-600 text-sm">
-            Data compiled from Instagram analytics and sustainability research • April 2026
+            Dữ liệu được biên soạn từ phân tích Instagram và nghiên cứu bền vững • Tháng 4 năm 2026
           </p>
         </div>
       </footer>
